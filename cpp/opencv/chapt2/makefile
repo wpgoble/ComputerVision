@@ -9,4 +9,4 @@ OPENCV = `pkg-config --cflags --libs opencv4`
 	$(CC) $(OPENCV) $(CXXFLAGS) $< -o $@
 
 clean:
-	rm -f *.exe *.o 
+	rm -f *.exe *.o *.x 
